@@ -46,6 +46,7 @@
 		38D3BDCA29B776790025FF30 /* nssl0042.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0042.jpg; sourceTree = "<group>"; };
 		38D3BDCB29B776790025FF30 /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
 		38D3BDD729B781D30025FF30 /* StormDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormDetailViewController.swift; sourceTree = "<group>"; };
+		38D3BDDB29B8CBE10025FF30 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 		38D3BDA229B7753B0025FF30 = {
 			isa = PBXGroup;
 			children = (
+				38D3BDDB29B8CBE10025FF30 /* README.md */,
 				38D3BDAD29B7753B0025FF30 /* HWS Project 1 */,
 				38D3BDAC29B7753B0025FF30 /* Products */,
 			);
