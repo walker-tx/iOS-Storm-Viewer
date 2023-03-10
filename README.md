@@ -7,12 +7,13 @@
 \____/ \__\___/|_|  |_| |_| |_|  \___/|_|\___| \_/\_/ \___|_|   
 ```
 
-#  Hacking With Swift (UIKit) - Project 1
+#  Hacking With Swift (UIKit) - Projects 1 & 3
 
 View static pictures of different storms. Learning project.
 
 # Concepts
 
+## Part 1
 - App Bundles
 - FileManager
 - Typecasting
@@ -22,8 +23,10 @@ View static pictures of different storms. Learning project.
 - Auto layout 
 - UIImage
 
+## Part 3
+- UIBarButtonItem
+- UIActivityViewController
+
 # Resources Used
 
-Video: [Hacking with Swift - Storm Viewer Series](https://youtu.be/lCHpZjERVdY)
-
-Articles: [Hacking with Swift - Project 1 Storm Viewer](https://www.hackingwithswift.com/read/1/overview)
+Video: [Hacking with Swift - Storm Viewer Series](https://youtu.be/_bjMK-c1EV8)
