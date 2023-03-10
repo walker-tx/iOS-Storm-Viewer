@@ -47,7 +47,10 @@ class StormDetailViewController: UIViewController {
             return
         }
         
-        let vc = UIActivityViewController(activityItems: [image], applicationActivities: [])
+        let vc = UIActivityViewController(
+            activityItems: [image, self.selectedStormImage?.path ?? "unnamed_photo.jpg"],
+            applicationActivities: []
+        )
         vc.popoverPresentationController?.barButtonItem =
             navigationItem.rightBarButtonItem
         present(vc, animated: true)

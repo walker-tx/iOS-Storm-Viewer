@@ -25,6 +25,12 @@ class StormTableViewController: UITableViewController {
         self.title = "Storm Pictures ⛈️"
         self.navigationController?.navigationBar.prefersLargeTitles = true
         
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(
+            barButtonSystemItem: .action,
+            target: self,
+            action: #selector(shareTapped)
+        )
+        
         let fileManager = FileManager.default
         /// "A bundle is a directory containing our compiled program and all our assets."
         /// We use BANGs here because we _want_ this code to fail catastrophically.
@@ -55,6 +61,19 @@ class StormTableViewController: UITableViewController {
             viewController.selectedStormImage = pictures[indexPath.row]
             navigationController?.pushViewController(viewController, animated: true)
         }
+    }
+    
+    @objc func shareTapped() {
+        let vc = UIActivityViewController(
+            activityItems: [
+                "Check out Storm Viewer!",
+                "https://github.com/wlockiv/iOS-Storm-Viewer"
+            ],
+            applicationActivities: []
+        )
+        vc.popoverPresentationController?.barButtonItem =
+            navigationItem.rightBarButtonItem
+        present(vc, animated: true)
     }
 }
 
